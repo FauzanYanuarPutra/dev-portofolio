@@ -137,7 +137,7 @@ export default function Home() {
       </div>
       <div className='w-full bg-white p-6 rounded-lg'>
         <h1 className='mb-3'>Project (3)</h1>
-        <div className='flex gap-2'>
+        <div className='flex flex-wrap gap-2'>
           <div className='px-6 py-1 rounded-lg border-[1px] border-[#4F4F4F] '>
             React
           </div>
