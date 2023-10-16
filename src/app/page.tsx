@@ -211,7 +211,7 @@ export default function Home() {
   );
 }
 
-export const FrontEnd = () => {
+const FrontEnd = () => {
   const skills = [
     {
       title: 'React',
@@ -258,7 +258,7 @@ export const FrontEnd = () => {
   )
 }
 
-export const Hobbies = () => {
+const Hobbies = () => {
   const hobies = [
     {
       title: 'Gaming',
