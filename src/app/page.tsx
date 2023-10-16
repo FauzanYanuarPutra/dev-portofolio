@@ -4,6 +4,8 @@ import { IconPhoneFilled } from '@tabler/icons-react';
 import { IconMail } from '@tabler/icons-react';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import FrontEnd from './components/FrontEnd';
+import Hobbies from './components/Hobbies';
 
 export default function Home() {
   return (
@@ -131,8 +133,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-
         </div>
       </div>
       <div className='w-full bg-white p-6 rounded-lg'>
@@ -206,93 +206,8 @@ export default function Home() {
         </div>
       </div>
     </div>
-
-    
   );
 }
 
-const FrontEnd = () => {
-  const skills = [
-    {
-      title: 'React',
-      skill: 70
-    },
-    {
-      title: 'Javascript',
-      skill: 80
-    },
-    {
-      title: 'CSS',
-      skill: 90
-    },
-    {
-      title: 'Vue',
-      skill: 70
-    },
-    {
-      title: 'Redux',
-      skill: 80
-    },
-    {
-      title: 'React Native',
-      skill: 90
-    }
-  ]
 
-  return (
-    <div className='flex flex-col gap-3 bg-white p-4 rounded-lg'>
-      <h1 className='font-bold text-[#4F4F4F]  text-lg'>FRONT END</h1>
-      <div className='grid gap-2'>
-      {skills.map((skill: any) => (
-        <div key={skill.title} className='grid grid-cols-3 items-center gap-10'>
-          <h3 className='col-span-1 whitespace-nowrap text-[#4F4F4F] font-medium'>{skill.title}</h3>
-          <div className='w-full h-2 col-span-2 bg-gray-300 rounded-lg'>
-            {skill.skill && (
-              <div style={{ width: `${skill.skill}%` }} className={`bg-blue-600 h-full rounded-lg`}></div>
-            )}
-          </div>
-        </div>
-      ))}
-      </div>
-    </div>
-  )
-}
 
-const Hobbies = () => {
-  const hobies = [
-    {
-      title: 'Gaming',
-      image: 'https://source.unsplash.com/random/1000x800',
-      description: 'Quisque feugiat malesuda molestie'
-    },
-    {
-      title: 'Cooking',
-      image: 'https://source.unsplash.com/random/1000x700',
-      description: 'Quisque feugiat malesuda molestie'
-    },
-    {
-      title: 'biking',
-      image: 'https://source.unsplash.com/random/1000x600',
-      description: 'Quisque feugiat malesuda molestie'
-    }
-  ]
-
-  return (
-    <div className='flex flex-col bg-white gap-6 p-4 rounded-lg'>
-      <h1 className='font-semibold text-[#4F4F4F] text-2xl'>Hobbies</h1>
-      <div className='grid gap-6'>
-        {hobies && hobies.map((hobby: any) => (
-          <div className='grid gap-4' key={hobby.title}>
-            <div>
-              <Image width={20000} height={20000} quality={100} src={hobby.image} alt="" className='w-full h-auto max-h-[200px] md:max-h-[250px] object-cover lg:max-h-[150px] rounded-lg'></Image>
-            </div>
-            <div className='grid gap-2'>
-              <h1 className='text-xl font-semibold text-[#333]'>{hobby.title}</h1>
-              <p className='text-[#828282] text-lg'>{hobby.description}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  )
-}
