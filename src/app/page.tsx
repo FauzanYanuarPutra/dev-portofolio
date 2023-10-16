@@ -9,7 +9,7 @@ import Hobbies from './components/Hobbies';
 
 export default function Home() {
   return (
-    <div className="max-w-[1000px] w-[95%] grid gap-4 mx-auto my-10">
+    <div className="max-w-[1000px] w-[93%] flex flex-col gap-4 mx-auto my-10">
       <div className="flex flex-col  md:flex-row gap-3 bg-white rounded-lg shadow p-4">
         <div className="w-full md:w-[200px] h-[200px] bg-slate-400">
           <div className="w-full h-full md:w-[200px] md:h-[200px] relative rounded-lg overflow-hidden">
