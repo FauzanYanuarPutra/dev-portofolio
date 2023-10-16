@@ -65,7 +65,7 @@ export default function Home() {
                 <h1 className='font-medium text-3xl'>How to organize your CSS</h1>
               </div>
               <div className='col-span-2'>
-                <Image src={'https://source.unsplash.com/random/1000x1000'} alt="" width={100} height={100} className='w-full max-h-[300px] lg:max-h-[600px] lg:h-[430px] rounded-l-lg object-cover my-2 lg:my-0'></Image>
+                <Image src={'https://source.unsplash.com/random/1000x1000'} alt="" width={100} height={100} className='w-full max-h-[300px] lg:max-h-[600px] lg:h-[430px] rounded-lg lg:rounded-l-lg object-cover my-2 lg:my-0'></Image>
               </div>
             </div>
             <div className='text-lg text-[#828282] flex flex-col gap-3 lg:p-6'>
@@ -152,7 +152,7 @@ export default function Home() {
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
         <div className='p-6 rounded-lg bg-white grid gap-4'>
           <div>
-            <Image src={'https://source.unsplash.com/random/1000x1000'} alt="" width={100} height={100} className='w-full max-h-[300px] rounded-l-lg object-cover my-2}'></Image>
+            <Image src={'https://source.unsplash.com/random/1000x1000'} alt="" width={100} height={100} className='w-full max-h-[300px] rounded-lg object-cover my-2}'></Image>
           </div>
           <div className='flex flex-col gap-3'>
             <div className='flex line-clamp-1 gap-2 text-lg text-[#4F4F4F]'>
@@ -170,7 +170,7 @@ export default function Home() {
         </div>
         <div className='p-6 rounded-lg bg-white grid gap-4'>
           <div>
-            <Image src={'https://source.unsplash.com/random/1000x1000'} alt="" width={100} height={100} className='w-full max-h-[300px] rounded-l-lg object-cover my-2}'></Image>
+            <Image src={'https://source.unsplash.com/random/1000x1000'} alt="" width={100} height={100} className='w-full max-h-[300px] rounded-lg object-cover my-2}'></Image>
           </div>
           <div className='flex flex-col gap-3'>
             <div className='flex line-clamp-1 gap-2 text-lg text-[#4F4F4F]'>
@@ -178,7 +178,7 @@ export default function Home() {
               <p>#CSS</p>
               <p>#responsive</p>
             </div>
-            <h1 className='text-2xl font-medium'>Recipe Blog</h1>
+            <h1 className='text-2xl font-medium'>My Gallery</h1>
             <p className='text-[#828282] text-md'>In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io</p>
             <div className='grid grid-cols-2 my-4 gap-2'>
                 <button className='p-2 bg-[#2F80ED] text-white rounded-lg'>Demo</button>
@@ -188,7 +188,7 @@ export default function Home() {
         </div>
         <div className='p-6 rounded-lg bg-white grid gap-4'>
           <div>
-            <Image src={'https://source.unsplash.com/random/1000x1000'} alt="" width={100} height={100} className='w-full max-h-[300px] rounded-l-lg object-cover my-2}'></Image>
+            <Image src={'https://source.unsplash.com/random/1000x1000'} alt="" width={100} height={100} className='w-full max-h-[300px] rounded-lg object-cover my-2}'></Image>
           </div>
           <div className='flex flex-col gap-3'>
             <div className='flex line-clamp-1 gap-2 text-lg text-[#4F4F4F]'>
@@ -196,7 +196,7 @@ export default function Home() {
               <p>#CSS</p>
               <p>#responsive</p>
             </div>
-            <h1 className='text-2xl font-medium'>Recipe Blog</h1>
+            <h1 className='text-2xl font-medium'>Checkout</h1>
             <p className='text-[#828282] text-md'>In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io</p>
             <div className='grid grid-cols-2 my-4 gap-2'>
                 <button className='p-2 bg-[#2F80ED] text-white rounded-lg'>Demo</button>
